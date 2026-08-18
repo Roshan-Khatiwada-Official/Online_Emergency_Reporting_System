@@ -1,0 +1,290 @@
+[
+  {
+    "id": "n-1",
+    "userId": "u-admin-1",
+    "title": "New Crime Report",
+    "message": "Domestic Violence (CR-2024-1047) submitted.",
+    "isRead": true,
+    "relatedReportId": "r-1047",
+    "createdAt": "2023-12-18T21:00:00.000Z"
+  },
+  {
+    "id": "n-2",
+    "userId": "u-citizen-2",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1047 is now \"Rejected\".",
+    "isRead": true,
+    "relatedReportId": "r-1047",
+    "createdAt": "2023-12-19T08:30:00.000Z"
+  },
+  {
+    "id": "n-3",
+    "userId": "u-admin-1",
+    "title": "New Crime Report",
+    "message": "Mobile Snatching (CR-2024-1048) submitted.",
+    "isRead": true,
+    "relatedReportId": "r-1048",
+    "createdAt": "2023-12-20T17:10:00.000Z"
+  },
+  {
+    "id": "n-4",
+    "userId": "u-citizen-1",
+    "title": "Report Accepted",
+    "message": "Your report CR-2024-1048 has been accepted and assigned.",
+    "isRead": true,
+    "relatedReportId": "r-1048",
+    "createdAt": "2023-12-21T09:00:00.000Z"
+  },
+  {
+    "id": "n-5",
+    "userId": "u-police-1",
+    "title": "New Case Assigned",
+    "message": "You have been assigned case CR-2024-1048.",
+    "isRead": true,
+    "relatedReportId": "r-1048",
+    "createdAt": "2023-12-21T09:00:00.000Z"
+  },
+  {
+    "id": "n-6",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1048 is now \"In Progress\".",
+    "isRead": true,
+    "relatedReportId": "r-1048",
+    "createdAt": "2023-12-24T15:00:00.000Z"
+  },
+  {
+    "id": "n-7",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1048 is now \"Solved\".",
+    "isRead": true,
+    "relatedReportId": "r-1048",
+    "createdAt": "2023-12-27T12:00:00.000Z"
+  },
+  {
+    "id": "n-8",
+    "userId": "u-admin-1",
+    "title": "New Crime Report",
+    "message": "Robbery in Biratnagar (CR-2024-1049) submitted.",
+    "isRead": false,
+    "relatedReportId": "r-1049",
+    "createdAt": "2023-12-30T19:40:00.000Z"
+  },
+  {
+    "id": "n-9",
+    "userId": "u-citizen-2",
+    "title": "Report Accepted",
+    "message": "Your report CR-2024-1049 has been accepted and assigned.",
+    "isRead": false,
+    "relatedReportId": "r-1049",
+    "createdAt": "2023-12-31T09:00:00.000Z"
+  },
+  {
+    "id": "n-10",
+    "userId": "u-police-1",
+    "title": "New Case Assigned",
+    "message": "You have been assigned case CR-2024-1049.",
+    "isRead": true,
+    "relatedReportId": "r-1049",
+    "createdAt": "2023-12-31T09:00:00.000Z"
+  },
+  {
+    "id": "n-11",
+    "userId": "u-admin-1",
+    "title": "New Crime Report",
+    "message": "Cyber Crime in Pokhara (CR-2024-1050) submitted.",
+    "isRead": false,
+    "relatedReportId": "r-1050",
+    "createdAt": "2024-01-01T08:05:00.000Z"
+  },
+  {
+    "id": "n-12",
+    "userId": "u-admin-1",
+    "title": "New Crime Report",
+    "message": "Assault in Lalitpur (CR-2024-1051) submitted.",
+    "isRead": false,
+    "relatedReportId": "r-1051",
+    "createdAt": "2024-01-01T14:20:00.000Z"
+  },
+  {
+    "id": "n-13",
+    "userId": "u-citizen-2",
+    "title": "Report Accepted",
+    "message": "Your report CR-2024-1051 has been accepted and assigned.",
+    "isRead": false,
+    "relatedReportId": "r-1051",
+    "createdAt": "2024-01-02T09:00:00.000Z"
+  },
+  {
+    "id": "n-14",
+    "userId": "u-police-2",
+    "title": "New Case Assigned",
+    "message": "You have been assigned case CR-2024-1051.",
+    "isRead": false,
+    "relatedReportId": "r-1051",
+    "createdAt": "2024-01-02T09:00:00.000Z"
+  },
+  {
+    "id": "n-15",
+    "userId": "u-citizen-2",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1049 is now \"In Progress\".",
+    "isRead": false,
+    "relatedReportId": "r-1049",
+    "createdAt": "2024-01-02T09:00:00.000Z"
+  },
+  {
+    "id": "n-16",
+    "userId": "u-admin-1",
+    "title": "New Crime Report",
+    "message": "Theft in Baneshwor (CR-2024-1052) submitted.",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2024-01-02T09:15:00.000Z"
+  },
+  {
+    "id": "n-17",
+    "userId": "u-citizen-1",
+    "title": "Report Accepted",
+    "message": "Your report CR-2024-1052 has been accepted and assigned.",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2024-01-02T12:00:00.000Z"
+  },
+  {
+    "id": "n-18",
+    "userId": "u-police-1",
+    "title": "New Case Assigned",
+    "message": "You have been assigned case CR-2024-1052.",
+    "isRead": true,
+    "relatedReportId": "r-1052",
+    "createdAt": "2024-01-02T12:00:00.000Z"
+  },
+  {
+    "id": "n-19",
+    "userId": "u-citizen-2",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1051 is now \"In Progress\".",
+    "isRead": false,
+    "relatedReportId": "r-1051",
+    "createdAt": "2024-01-03T10:00:00.000Z"
+  },
+  {
+    "id": "n-20",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"In Progress\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2024-01-04T11:00:00.000Z"
+  },
+  {
+    "id": "n-ec065537-c0e3-4a8b-8578-b34dfebf2f6f",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"In Progress\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T20:59:54.475Z"
+  },
+  {
+    "id": "n-4bdd44ec-b44b-4ef6-8924-82a9c82ce254",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"In Progress\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T20:59:55.267Z"
+  },
+  {
+    "id": "n-ce88c8dd-0127-4151-9b4f-40834eaab000",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"In Progress\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T20:59:55.811Z"
+  },
+  {
+    "id": "n-04b3c870-31d5-4996-8ce5-37d2f19ff6f6",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"Closed\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T20:59:59.642Z"
+  },
+  {
+    "id": "n-4a4b197f-b825-4984-81c1-2b50d4b190a0",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"Closed\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T21:00:01.071Z"
+  },
+  {
+    "id": "n-fe4097e2-cb63-4184-a2a5-4dbde8e9e7d5",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"Closed\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T21:00:34.873Z"
+  },
+  {
+    "id": "n-051a3096-e5d8-449a-b9d6-e6ceeb419bf0",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"Closed\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T21:00:35.524Z"
+  },
+  {
+    "id": "n-83fc0192-7467-4036-91ce-1e7776d04116",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"Closed\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T21:00:36.088Z"
+  },
+  {
+    "id": "n-40de8133-58fb-44f6-8721-d79789c841f4",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"Closed\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T21:00:36.754Z"
+  },
+  {
+    "id": "n-ab72a6c2-c527-4de6-8085-793e0a70c651",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"Solved\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T21:00:39.886Z"
+  },
+  {
+    "id": "n-0db7d5f2-96cf-426a-9a36-c3ddd1d3a0f7",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"Solved\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T21:00:40.661Z"
+  },
+  {
+    "id": "n-ed94c447-911e-4739-8347-c0d3887ca611",
+    "userId": "u-citizen-1",
+    "title": "Case Status Updated",
+    "message": "Your report CR-2024-1052 is now \"Solved\".",
+    "isRead": false,
+    "relatedReportId": "r-1052",
+    "createdAt": "2026-08-18T21:00:41.319Z"
+  }
+]

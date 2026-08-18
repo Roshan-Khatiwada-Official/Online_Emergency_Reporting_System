@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Thamel Police Station", "district": "Kathmandu", "province": "Bagmati", "address": "Thamel, Kathmandu", "phone": "01-4700000", "lat": 27.7154, "lng": 85.3123 },
+  { "id": 2, "name": "Baneshwor Police Station", "district": "Kathmandu", "province": "Bagmati", "address": "New Baneshwor, Kathmandu", "phone": "01-4780000", "lat": 27.6939, "lng": 85.3436 },
+  { "id": 3, "name": "Lalitpur District Police Office", "district": "Lalitpur", "province": "Bagmati", "address": "Pulchowk, Lalitpur", "phone": "01-5522000", "lat": 27.6766, "lng": 85.3170 },
+  { "id": 4, "name": "Bhaktapur Police Station", "district": "Bhaktapur", "province": "Bagmati", "address": "Bhaktapur Durbar Square Area", "phone": "01-6610000", "lat": 27.6710, "lng": 85.4298 },
+  { "id": 5, "name": "Pokhara Metropolitan Police Office", "district": "Kaski", "province": "Gandaki", "address": "Ranipauwa, Pokhara", "phone": "061-465000", "lat": 28.2096, "lng": 83.9856 },
+  { "id": 6, "name": "Biratnagar Police Station", "district": "Morang", "province": "Koshi", "address": "Biratnagar-4, Morang", "phone": "021-525000", "lat": 26.4525, "lng": 87.2718 },
+  { "id": 7, "name": "Butwal Police Station", "district": "Rupandehi", "province": "Lumbini", "address": "Butwal, Rupandehi", "phone": "071-540000", "lat": 27.7000, "lng": 83.4486 },
+  { "id": 8, "name": "Chitwan District Police Office", "district": "Chitwan", "province": "Bagmati", "address": "Bharatpur, Chitwan", "phone": "056-520000", "lat": 27.6767, "lng": 84.4315 },
+  { "id": 9, "name": "Nepalgunj Police Station", "district": "Banke", "province": "Lumbini", "address": "Nepalgunj, Banke", "phone": "081-520000", "lat": 28.0500, "lng": 81.6167 },
+  { "id": 10, "name": "Dhangadhi Police Station", "district": "Kailali", "province": "Sudurpashchim", "address": "Dhangadhi, Kailali", "phone": "091-521000", "lat": 28.6833, "lng": 80.6000 }
+]
