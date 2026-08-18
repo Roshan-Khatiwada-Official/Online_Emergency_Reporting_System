@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Theft", "nameNp": "चोरी", "description": "Stealing of personal or public property", "defaultSeverity": "Medium", "icon": "🎒" },
+  { "id": 2, "name": "Robbery", "nameNp": "डकैती", "description": "Theft involving force or threat", "defaultSeverity": "High", "icon": "🔫" },
+  { "id": 3, "name": "Assault", "nameNp": "आक्रमण", "description": "Physical attack on a person", "defaultSeverity": "High", "icon": "🥊" },
+  { "id": 4, "name": "Cyber Crime", "nameNp": "साइबर अपराध", "description": "Online fraud, hacking, harassment", "defaultSeverity": "Medium", "icon": "💻" },
+  { "id": 5, "name": "Domestic Violence", "nameNp": "घरेलु हिंसा", "description": "Violence within the household", "defaultSeverity": "High", "icon": "🏠" },
+  { "id": 6, "name": "Mobile Snatching", "nameNp": "मोबाइल खोसाखोस", "description": "Snatching of mobile phones/electronics", "defaultSeverity": "Medium", "icon": "📱" },
+  { "id": 7, "name": "Murder", "nameNp": "हत्या", "description": "Unlawful killing of another person", "defaultSeverity": "High", "icon": "⚠️" },
+  { "id": 8, "name": "Kidnapping", "nameNp": "अपहरण", "description": "Unlawful abduction of a person", "defaultSeverity": "High", "icon": "🚨" },
+  { "id": 9, "name": "Drug-related", "nameNp": "लागुऔषध सम्बन्धी", "description": "Possession, sale or use of illegal drugs", "defaultSeverity": "Medium", "icon": "💊" },
+  { "id": 10, "name": "Others", "nameNp": "अन्य", "description": "Any other criminal activity", "defaultSeverity": "Low", "icon": "📋" }
+]

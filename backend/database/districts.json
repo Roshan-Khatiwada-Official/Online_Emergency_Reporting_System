@@ -1,0 +1,9 @@
+[
+  { "id": 1, "province": "Koshi", "districts": ["Bhojpur", "Dhankuta", "Ilam", "Jhapa", "Khotang", "Morang", "Okhaldhunga", "Panchthar", "Sankhuwasabha", "Solukhumbu", "Sunsari", "Taplejung", "Terhathum", "Udayapur"] },
+  { "id": 2, "province": "Madhesh", "districts": ["Bara", "Dhanusha", "Mahottari", "Parsa", "Rautahat", "Saptari", "Sarlahi", "Siraha"] },
+  { "id": 3, "province": "Bagmati", "districts": ["Bhaktapur", "Chitwan", "Dhading", "Dolakha", "Kathmandu", "Kavrepalanchok", "Lalitpur", "Makwanpur", "Nuwakot", "Ramechhap", "Rasuwa", "Sindhuli", "Sindhupalchok"] },
+  { "id": 4, "province": "Gandaki", "districts": ["Baglung", "Gorkha", "Kaski", "Lamjung", "Manang", "Mustang", "Myagdi", "Nawalpur", "Parbat", "Syangja", "Tanahun"] },
+  { "id": 5, "province": "Lumbini", "districts": ["Arghakhanchi", "Banke", "Bardiya", "Dang", "Eastern Rukum", "Gulmi", "Kapilvastu", "Parasi", "Palpa", "Pyuthan", "Rolpa", "Rupandehi"] },
+  { "id": 6, "province": "Karnali", "districts": ["Dailekh", "Dolpa", "Humla", "Jajarkot", "Jumla", "Kalikot", "Mugu", "Salyan", "Surkhet", "Western Rukum"] },
+  { "id": 7, "province": "Sudurpashchim", "districts": ["Achham", "Baitadi", "Bajhang", "Bajura", "Dadeldhura", "Darchula", "Kailali", "Kanchanpur", "Doti"] }
+]

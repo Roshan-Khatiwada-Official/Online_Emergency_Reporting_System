@@ -1,0 +1,140 @@
+[
+  {
+    "id": "r-1052",
+    "caseId": "CR-2024-1052",
+    "userId": "u-citizen-1",
+    "crimeCategoryId": 1,
+    "title": "Theft in Baneshwor",
+    "description": "A mobile phone was stolen near Thamel area while walking in the evening.",
+    "location": {
+      "address": "Thamel, Kathmandu",
+      "province": "Bagmati",
+      "district": "Kathmandu",
+      "lat": 27.7154,
+      "lng": 85.3123
+    },
+    "severity": "High",
+    "status": "In Progress",
+    "evidence": [],
+    "assignedOfficerId": "u-police-1",
+    "stationId": 1,
+    "isSOS": false,
+    "createdAt": "2024-01-02T09:15:00.000Z",
+    "updatedAt": "2024-01-04T11:00:00.000Z"
+  },
+  {
+    "id": "r-1051",
+    "caseId": "CR-2024-1051",
+    "userId": "u-citizen-2",
+    "crimeCategoryId": 3,
+    "title": "Assault in Lalitpur",
+    "description": "Physical altercation reported near Pulchowk chowk.",
+    "location": {
+      "address": "Pulchowk, Lalitpur",
+      "province": "Bagmati",
+      "district": "Lalitpur",
+      "lat": 27.6766,
+      "lng": 85.317
+    },
+    "severity": "Medium",
+    "status": "In Progress",
+    "evidence": [],
+    "assignedOfficerId": "u-police-2",
+    "stationId": 3,
+    "isSOS": false,
+    "createdAt": "2024-01-01T14:20:00.000Z",
+    "updatedAt": "2024-01-03T10:00:00.000Z"
+  },
+  {
+    "id": "r-1050",
+    "caseId": "CR-2024-1050",
+    "userId": "u-citizen-1",
+    "crimeCategoryId": 4,
+    "title": "Cyber Crime in Pokhara",
+    "description": "Bank account compromised via a phishing link sent over SMS.",
+    "location": {
+      "address": "Lakeside, Pokhara",
+      "province": "Gandaki",
+      "district": "Kaski",
+      "lat": 28.2096,
+      "lng": 83.9856
+    },
+    "severity": "Medium",
+    "status": "Submitted",
+    "evidence": [],
+    "assignedOfficerId": null,
+    "stationId": 5,
+    "isSOS": false,
+    "createdAt": "2024-01-01T08:05:00.000Z",
+    "updatedAt": "2024-01-01T08:05:00.000Z"
+  },
+  {
+    "id": "r-1049",
+    "caseId": "CR-2024-1049",
+    "userId": "u-citizen-2",
+    "crimeCategoryId": 2,
+    "title": "Robbery in Biratnagar",
+    "description": "Armed robbery reported at a roadside shop.",
+    "location": {
+      "address": "Biratnagar-4, Morang",
+      "province": "Koshi",
+      "district": "Morang",
+      "lat": 26.4525,
+      "lng": 87.2718
+    },
+    "severity": "High",
+    "status": "In Progress",
+    "evidence": [],
+    "assignedOfficerId": "u-police-1",
+    "stationId": 6,
+    "isSOS": false,
+    "createdAt": "2023-12-30T19:40:00.000Z",
+    "updatedAt": "2024-01-02T09:00:00.000Z"
+  },
+  {
+    "id": "r-1048",
+    "caseId": "CR-2024-1048",
+    "userId": "u-citizen-1",
+    "crimeCategoryId": 6,
+    "title": "Mobile Snatching",
+    "description": "Phone snatched by a passing motorbike rider.",
+    "location": {
+      "address": "New Baneshwor, Kathmandu",
+      "province": "Bagmati",
+      "district": "Kathmandu",
+      "lat": 27.6939,
+      "lng": 85.3436
+    },
+    "severity": "Medium",
+    "status": "Solved",
+    "evidence": [],
+    "assignedOfficerId": "u-police-1",
+    "stationId": 2,
+    "isSOS": false,
+    "createdAt": "2023-12-20T17:10:00.000Z",
+    "updatedAt": "2023-12-27T12:00:00.000Z"
+  },
+  {
+    "id": "r-1047",
+    "caseId": "CR-2024-1047",
+    "userId": "u-citizen-2",
+    "crimeCategoryId": 5,
+    "title": "Domestic Violence",
+    "description": "Domestic violence incident reported by a neighbor.",
+    "location": {
+      "address": "Bhaktapur Durbar Square Area, Bhaktapur",
+      "province": "Bagmati",
+      "district": "Bhaktapur",
+      "lat": 27.671,
+      "lng": 85.4298
+    },
+    "severity": "High",
+    "status": "Rejected",
+    "evidence": [],
+    "assignedOfficerId": "u-police-2",
+    "stationId": 4,
+    "isSOS": false,
+    "createdAt": "2023-12-18T21:00:00.000Z",
+    "updatedAt": "2023-12-19T08:30:00.000Z"
+  }
+]
