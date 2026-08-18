@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import DashboardLayout from "../components/DashboardLayout";
 import Spinner from "../components/Spinner";
 import { useAuth } from "../context/AuthContext";
+import { useToast } from "../context/ToastContext";
 import { api } from "../api/client";
 
 const DETAIL_BASE = { citizen: "/citizen/reports", police: "/police/cases", admin: "/admin/reports" };
@@ -17,6 +18,7 @@ function timeAgo(dateStr) {
 
 export default function NotificationsPage() {
   const { user } = useAuth();
+  const { showToast } = useToast();
   const navigate = useNavigate();
   const [notifications, setNotifications] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -44,6 +46,7 @@ export default function NotificationsPage() {
   async function markAllRead() {
     await api.put("/notifications/read-all");
     setNotifications((list) => list.map((n) => ({ ...n, isRead: true })));
+    showToast("All notifications marked as read.", "success");
   }
 
   return (

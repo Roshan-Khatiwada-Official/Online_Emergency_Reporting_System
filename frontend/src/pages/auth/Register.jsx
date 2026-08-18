@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Crest from "../../components/Crest";
 import { useAuth } from "../../context/AuthContext";
+import { useToast } from "../../context/ToastContext";
 import { api } from "../../api/client";
 
 export default function Register() {
   const { register } = useAuth();
+  const { showToast } = useToast();
   const navigate = useNavigate();
   const [provinces, setProvinces] = useState([]);
   const [form, setForm] = useState({
@@ -43,8 +45,10 @@ export default function Register() {
       const { confirmPassword, ...payload } = form;
       const user = await register(payload);
       navigate(`/${user.role}`, { replace: true });
+      showToast(`Welcome to NCRS, ${user.name.split(" ")[0]}!`, "success");
     } catch (err) {
       setError(err.message);
+      showToast(err.message, "error");
     } finally {
       setLoading(false);
     }

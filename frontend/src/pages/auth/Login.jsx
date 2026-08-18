@@ -2,9 +2,11 @@ import { useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import Crest from "../../components/Crest";
 import { useAuth } from "../../context/AuthContext";
+import { useToast } from "../../context/ToastContext";
 
 export default function Login() {
   const { login } = useAuth();
+  const { showToast } = useToast();
   const navigate = useNavigate();
   const location = useLocation();
   const [form, setForm] = useState({ email: "", password: "" });
@@ -19,8 +21,10 @@ export default function Login() {
       const user = await login(form.email, form.password);
       const dest = location.state?.from || `/${user.role}`;
       navigate(dest, { replace: true });
+      showToast(`Welcome back, ${user.name.split(" ")[0]}!`, "success");
     } catch (err) {
       setError(err.message);
+      showToast(err.message, "error");
     } finally {
       setLoading(false);
     }

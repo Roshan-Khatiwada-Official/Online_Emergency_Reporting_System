@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import DashboardLayout from "../../components/DashboardLayout";
+import { useToast } from "../../context/ToastContext";
 import { api } from "../../api/client";
 
 export default function ReportCrime() {
   const navigate = useNavigate();
+  const { showToast } = useToast();
   const [categories, setCategories] = useState([]);
   const [provinces, setProvinces] = useState([]);
   const [files, setFiles] = useState([]);
@@ -60,9 +62,11 @@ export default function ReportCrime() {
 
       const data = await api.post("/reports", fd, { isForm: true });
       setSuccess(`Report submitted successfully — Case ID: ${data.report.caseId}`);
+      showToast(`Report submitted — Case ID: ${data.report.caseId}`, "success");
       setTimeout(() => navigate(`/citizen/reports/${data.report.id}`), 1200);
     } catch (err) {
       setError(err.message);
+      showToast(err.message, "error");
     } finally {
       setLoading(false);
     }
